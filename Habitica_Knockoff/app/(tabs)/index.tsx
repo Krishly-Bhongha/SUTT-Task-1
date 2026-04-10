@@ -51,7 +51,7 @@ export default function HomeScreen() {
     <View style={styles.container}>
       <Text style={{fontSize: 24}}>⚔️ Task Quest RPG</Text>
       <Text>Player: {playerName}</Text>
-      <text>XP: {xp}</text>
+      <Text>XP: {xp}</Text>
       <Text>❤️ HP: {hp}/50</Text>      
       <Text>Level: {level}</Text>
       <Text>XP Needed: {nextLevelXP}</Text>
